@@ -21,7 +21,6 @@ def decode(im):
 
     return decodedObjects
 
-
 # Read image
 im = cv2.imread('location_to_image_of_bar_code')
 api_key = "your_api_key"
@@ -37,3 +36,4 @@ pprint.pprint(data)
 # Main
 if __name__ == '__main__':
     decodedObjects = decode(im)
+    
